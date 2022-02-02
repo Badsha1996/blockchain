@@ -1,8 +1,11 @@
 {
+  "homepage": "https://Badsha1996.github.io/blockchain",
   "name": "wave-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "serve": "vite preview"
   },
@@ -25,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "gh-pages": "^3.2.3",
     "tailwindcss": "^2.2.19",
     "vite": "^2.6.4"
   }
